@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bienvenidoo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="454dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#8DF44336"
+            android:text="@string/eliminar"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btneditar"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#8DF44336"
+            android:text="@string/editar"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#8DF44336"
+            android:text="@string/buscar"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnEditsalir"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_margin="10dp"
+            android:background="#8DF44336"
+            android:text="@string/salir"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

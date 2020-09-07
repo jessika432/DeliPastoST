@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/crearrrr"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:autofillHints="text"
+        android:gravity="center"
+        android:text="@string/editar_informacion_de_la_cuenta"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/Edituser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:autofillHints="text"
+        android:enabled="false"
+        android:hint="@string/stringresource"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Editpass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:autofillHints="text"
+        android:hint="@string/Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/EditNombre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:autofillHints="text"
+        android:hint="@string/Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EditApellido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:hint="@string/Apellido"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Editactualizar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#7E9C27B0"
+        android:text="@string/Actualizar"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEditCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#8DF44336"
+        android:text="@string/cancelar"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

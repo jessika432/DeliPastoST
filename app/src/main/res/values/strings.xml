@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DeliPasto</string>
+    <string name="stringresource">usuario</string>
+    <string name="passwordresource">password</string>
+    <string name="extractresource">TODO</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="crea_una_cuenta">CREA UNA CUENTA</string>
+    <string name="registrar">registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="entrar">entrar</string>
+    <string name="registrarse">registrarse</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="editar_informacion_de_la_cuenta">EDITAR INFORMACION DE LA CUENTA</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="recetas">RECETAS</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="buscar">Buscar</string>
+    <string name="salir">salir</string>
+    <string name="editar">Editar</string>
+</resources>

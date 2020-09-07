@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/imagen"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/aa"
+        android:contentDescription="@string/extractresource" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:inputType="textEmailAddress"
+        android:hint="@string/stringresource"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:hint="@string/Contraseña"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#CB03A9F4"
+        android:text="@string/entrar"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#A1CDDC39"
+        android:text="@string/registrarse"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
