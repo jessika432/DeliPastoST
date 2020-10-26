@@ -4,14 +4,19 @@
 
     <application
         android:allowBackup=""
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        android:fullBackupContent="@xml/backup_descriptor">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".selecciondeusuario"></activity>
+        <activity android:name=".inicionuevo" />
+        <activity android:name=".historias" />
+        <activity android:name=".abrirreceta" />
+        <activity android:name=".bienvenidostodos" />
+        <activity android:name=".iniciodelareceta" />
         <activity android:name=".inicio" />
-        <activity android:name=".mostrar" />
         <activity android:name=".editar" />
         <activity android:name=".registrar" />
         <activity android:name=".MainActivity">

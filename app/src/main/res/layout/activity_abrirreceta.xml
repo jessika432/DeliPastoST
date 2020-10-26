@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/integrntes"
+    tools:context=".abrirreceta">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="286dp"
+        android:layout_height="248dp"
+        app:srcCompat="@mipmap/cuy"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="226dp"
+        android:layout_height="41dp"
+        android:background="#C6C0F3EC"
+        android:text=" CUY GALLETA"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="185dp"
+        android:layout_height="32dp"
+        android:background="#DDF6C1"
+        android:text="INGREDIENTES:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:background="#E100BCD4"
+        android:text="1. CUY"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:background="#E100BCD4"
+        android:text="5. AJO"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:background="#E100BCD4"
+        android:text="4. CEBOLLA"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:background="#E100BCD4"
+        android:text="3. ACEITE"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:background="#E100BCD4"
+        android:text="2. SAL"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="252dp"
+        android:layout_height="56dp"
+        android:background="#FFEB3B"
+        android:text="MODO DE PREPARACION"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="295dp"
+        android:layout_height="49dp"
+        android:background="#D3FFA0"
+        android:text="DEBEMOS TENER NUESTRO CUY PELADO DESPUES DE ESO LO SALAREMOS Y DEJAREMOS REPOSAR DURANTE UNOS 30 M "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

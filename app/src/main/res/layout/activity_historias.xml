@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/aguacates"
+    tools:context=".historias">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:background="#F45252"
+        android:text="ahora conozcamos un poco de historia"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="317dp"
+        android:layout_height="289dp"
+        app:srcCompat="@mipmap/alindasjajaja"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="223dp"
+        android:layout_height="39dp"
+        android:background="#D1C276"
+        android:text=" Maria Miramag"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="333dp"
+        android:layout_height="223dp"
+        android:background="#B4FB81"
+        android:text="Los platos tipicos de pasto han sido de mucha importancia para las diferentes personas que viven en esta region ya que gracias a estos deliciosos  platos innovadores han podido generar ingresos economicos y sobre todo dar a conocer la buena gastronomia y rescatar tradiciones"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="438dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

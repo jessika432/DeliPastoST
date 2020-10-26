@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/crearrrr"
+    tools:context=".selecciondeusuario">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="204dp"
+        android:layout_height="52dp"
+        android:background="#9CE1D7"
+        android:text="usuario"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="192dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="#A3EFE0"
+        android:text="experto en cocina"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        tools:layout_editor_absoluteX="109dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="161dp"
+        android:layout_height="54dp"
+        android:background="#A8F1E0"
+        android:text="chef"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="278dp"
+        android:layout_height="60dp"
+        android:text="¿que tipo de usuario eres?"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="56dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
