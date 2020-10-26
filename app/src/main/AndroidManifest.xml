@@ -3,7 +3,7 @@
     package="com.example.delipasto">
 
     <application
-        android:allowBackup=""
+        android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,21 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".selecciondeusuario"></activity>
-        <activity android:name=".inicionuevo" />
-        <activity android:name=".historias" />
-        <activity android:name=".abrirreceta" />
-        <activity android:name=".bienvenidostodos" />
-        <activity android:name=".iniciodelareceta" />
-        <activity android:name=".inicio" />
-        <activity android:name=".editar" />
-        <activity android:name=".registrar" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".InicioDeliPasto" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".historias" />
+        <activity android:name=".abrirreceta" />
+        <activity android:name=".BienvenidosTodos" />
+        <activity android:name=".iniciodelareceta" />
+        <activity android:name=".editar" />
+        <activity android:name=".registrar" />
     </application>
 
 </manifest>
